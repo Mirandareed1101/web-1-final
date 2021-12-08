@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Nixie+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nixie+One&family=Roboto&display=swap");
+body {
+  width: 1200px;
+  margin: auto;
+  background-color: #fcf4f4;
+}
+#intro {
+  height: 305.22px;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8em;
+  background: #ffde59;
+  margin: 0;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+img {
+  height: 300px;
+  max-width: 100%;
+}
+.cake2 {
+  height: 300px;
+  max-width: 100%;
+}
+.cardpic {
+  object-fit: cover;
+  height: 300px;
+  max-width: 100%;
+  border-radius: 11px 11px 0px 0px;
+  object-position: 0;
+}
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 3em;
+  row-gap: 2em;
+  justify-content: space-evenly;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.card {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  border-radius: 11px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+h1 {
+  font-family: Nixie One;
+  font-size: 53px;
+  color: #000000;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h2 {
+  font-family: Nixie One;
+  font-size: 53px;
+  color: #ffffff;
+  background-color: #7080cb;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+h3 {
+  font-family: Nixie One;
+  text-align: center;
+  font-size: 42px;
+  padding: 0;
+}
+h4 {
+  font-family: Nixie One;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  color: #7080cb;
+  margin: 1;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: #7080cb;
+  color: #ffde59;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+.order a:hover {
+  width: 115.33px;
+  height: 35.56px;
+  background-color: #7080cb;
+  border-radius: 11px 11px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 0;
+}
+.top {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  text-align: center;
+}
+.order {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  width: 115.33px;
+  height: 35.56px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffde59;
+  border-radius: 11px 11px;
+  border: solid 1.75px #7080cb;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-left: 1em;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+#order {
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  margin-bottom: 0;
+}
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  width: 115.33px;
+  height: 27.56px;
+  left: 493.29px;
+  top: 1772.59px;
+  background-color: #ffde59;
+  text-decoration: none;
+  text-indent: 0.5em;
+  border-radius: 11px 11px;
+  border: solid 1.75px #7080cb;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-left: 1em;
+}
+hr {
+  width: 150px;
+  height: 0px;
+  border: 1px dashed #7080cb;
+  margin-top: 0;
+}
+#cakes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#containerc {
+  height: 700px;
+  width: 100%;
+  background: #ffde59;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.call {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 25px;
+  width: 125.33px;
+  height: 34.56px;
+  display: flex;
+  justify-content: center;
+  background-color: #7080cb;
+  border-radius: 11px 11px;
+  border: solid 1.75px #7080cb;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-left: 1em;
+}
+#callbutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 5em;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+}
+.info2 {
+  display: flex;
+  flex-direction: row;
+}
+#contact {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.follow {
+  height: 600px;
+  width: 100%;
+  background: #ffde59;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.followpic {
+  height: 300px;
+  max-width: 100%;
+}
+#followpics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.svg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0;
+  padding: 0;
+}
+.footer {
+  height: 439px;
+  width: 100%;
+  background: #7080cb;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+#svgb {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5em;
+  margin-top: 2em;
+}
+svg {
+  padding: 0.5em;
+}
+#text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5em;
+  margin-top: 2em;
+}
+#align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  line-height: 1.8;
+  text-align: center;
+}
+.about {
+  padding-bottom: 3em;
+}
